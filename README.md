@@ -21,7 +21,7 @@ Medical_Text_Classification_LR_SVM_RF_Boosting/
 └── medical_text_project.ipynb  # Notebook utama: preprocessing, training, evaluasi
 ```
 
-## ⚙️ Alur Kerja (Workflow)
+## Alur Kerja (Workflow)
 
 1. **Data Loading** — memuat dataset teks medis.
 2. **Text Preprocessing** — pembersihan teks (case folding, stopword removal, tokenisasi, stemming/lemmatization).
