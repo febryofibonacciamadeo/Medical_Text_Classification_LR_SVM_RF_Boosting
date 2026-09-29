@@ -23,12 +23,12 @@ Medical_Text_Classification_LR_SVM_RF_Boosting/
 
 ## Alur Kerja (Workflow)
 
-1. **Data Loading** — memuat dataset teks medis.
-2. **Text Preprocessing** — pembersihan teks (case folding, stopword removal, tokenisasi, stemming/lemmatization).
-3. **Feature Extraction** — mengubah teks menjadi representasi numerik (mis. TF-IDF / Bag-of-Words).
-4. **Model Training** — melatih model LR, SVM, RF, dan Boosting pada data yang sudah diproses.
-5. **Evaluation** — membandingkan performa keempat model menggunakan metrik klasifikasi standar (accuracy, precision, recall, F1-score, confusion matrix).
-6. **Model Saving** — menyimpan model terbaik ke folder `models/`.
+1. **Data Loading:** memuat dataset teks medis.
+2. **Text Preprocessing:** pembersihan teks (case folding, stopword removal, tokenisasi, stemming/lemmatization).
+3. **Feature Extraction:** mengubah teks menjadi representasi numerik (mis. TF-IDF / Bag-of-Words).
+4. **Model Training:** melatih model LR, SVM, RF, dan Boosting pada data yang sudah diproses.
+5. **Evaluation:** membandingkan performa keempat model menggunakan metrik klasifikasi standar (accuracy, precision, recall, F1-score, confusion matrix).
+6. **Model Saving:** menyimpan model terbaik ke folder `models/`.
 
 ## Library yang Digunakan
 
@@ -57,11 +57,3 @@ Medical_Text_Classification_LR_SVM_RF_Boosting/
 ## Hasil
 
 Bandingkan performa keempat model berdasarkan hasil evaluasi di dalam notebook untuk menentukan algoritma yang paling optimal untuk kasus klasifikasi teks medis ini.
-
-## Catatan
-
-README ini disusun berdasarkan struktur file di repository. Silakan sesuaikan bagian dataset, hasil evaluasi (skor akurasi/F1), dan detail preprocessing sesuai isi notebook Anda agar lebih akurat.
-
-## Lisensi
-
-Belum ada lisensi ditentukan. Tambahkan file `LICENSE` jika ingin membuat proyek ini open-source secara resmi.
