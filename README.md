@@ -30,7 +30,7 @@ Medical_Text_Classification_LR_SVM_RF_Boosting/
 5. **Evaluation** — membandingkan performa keempat model menggunakan metrik klasifikasi standar (accuracy, precision, recall, F1-score, confusion matrix).
 6. **Model Saving** — menyimpan model terbaik ke folder `models/`.
 
-## 🛠️ Teknologi yang Digunakan
+## Library yang Digunakan
 
 - Python
 - Jupyter Notebook
